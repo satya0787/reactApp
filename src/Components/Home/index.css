@@ -1,0 +1,16 @@
+.pic {
+  background-color: white;
+  box-shadow: azure;
+  border-radius: 10px;
+}
+
+.shop-matter {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: medium;
+}
+.Brand {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}

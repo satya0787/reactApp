@@ -1,0 +1,20 @@
+.login-image {
+  height: 200px;
+  width: 200px;
+}
+
+.LoginConatiner {
+  margin: 0px;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/04/53/32/76/1000_F_453327620_flLShRCUNtqoVMK3NyfJdKI1UnQ3DxBy.jpg");
+  height: 100vh;
+  background-position: left;
+  display: flex;
+  justify-content: end;
+}
+
+.login-input {
+  box-shadow: aliceblue;
+  padding: 20px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
