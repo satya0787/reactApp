@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Product = (props) => {
   const { title, imageUrl, brand } = props.details;
   return (
-    <div className="col-sm-3 m-0.5">
+    <div className="col-sm-3 m-0.5 mb-0.5">
       <div className="card">
         <img src={imageUrl} className="card-img-top" alt="ntg" />
         <div className="card-body">

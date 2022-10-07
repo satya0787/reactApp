@@ -2,7 +2,7 @@ import { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Cookies from "js-cookie";
 import Product from "../Product";
-import Header from "../Header";
+
 class Products extends Component {
   state = { ProductList: [] };
   componentDidMount() {
@@ -39,7 +39,6 @@ class Products extends Component {
     const { ProductList } = this.state;
     return (
       <>
-        <Header />
         <h1 className="header m-5 p-2">All Products</h1>
         <div className="row p-2 text-center m-5 ">
           {ProductList.map((product) => (
